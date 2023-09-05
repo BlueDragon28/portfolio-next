@@ -15,7 +15,7 @@ export default function SkillSection(
       >
         { title }
       </h3>
-      <div>
+      <div className="overflow-x-auto whitespace-nowrap py-3">
         {children}
       </div>
     </div>

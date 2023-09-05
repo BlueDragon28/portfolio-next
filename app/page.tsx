@@ -5,6 +5,7 @@ import ProfileInfo from "@/components/profile-info";
 import IntroductionText from "@/components/introduction-text";
 import SkillIcon from "@/components/skill-icon";
 import SkillSection from "@/components/skill-section";
+import ProgrammingLanguagesSkillSection from "@/components/programming-languages-skills";
 
 export default function Home() {
   return (
@@ -19,12 +20,7 @@ export default function Home() {
         </div>
       </Card>
       <HeaderCard title="Compétences">
-        <SkillSection title="Langages de Programmation">
-          <SkillIcon 
-            name="JavaScript"
-            url="/images/techs/javascript.png"
-          />
-        </SkillSection>
+        <ProgrammingLanguagesSkillSection />
       </HeaderCard>
     </Layout>
   );
