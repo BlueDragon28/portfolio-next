@@ -9,7 +9,7 @@ export default function SkillIcon(
   { name, url }: SkillIconProps,
 ) {
   return (
-    <div className="inline-flex flex-col justify-around items-center">
+    <div className="inline-flex flex-col justify-around items-center w-28">
       <Image 
         src={url}
         alt={name}
