@@ -1,7 +1,9 @@
-import Image from 'next/image'
+import Layout from "@/components/layout";
 
 export default function Home() {
   return (
-    <p className="font-bold text-xl text-center">Hello World!</p>
+    <Layout>
+      <p className="font-bold text-xl text-center">Hello World!</p>
+    </Layout>
   );
 }
