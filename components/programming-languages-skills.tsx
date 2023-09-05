@@ -1,12 +1,8 @@
 import SkillSection from "./skill-section";
 import SkillIcon from "./skill-icon";
+import SkillRowSection, { SkillRowSectionInterface } from "./skills-row-section";
 
-interface ProgrammingLanguagesList {
-  name: string,
-  url: string,
-}
-
-const programmingLanguagesSkills: ProgrammingLanguagesList[] = [
+const programmingLanguagesSkills: SkillRowSectionInterface[] = [
   {
     name: "JavaScript",
     url: "/images/techs/javascript.png",
@@ -39,11 +35,9 @@ const programmingLanguagesSkills: ProgrammingLanguagesList[] = [
 
 export default function ProgrammingLanguagesSkillSection() {
   return (
-    <SkillSection title="Languages de Programmation">
-      {programmingLanguagesSkills.map(({ name, url }) => <SkillIcon
-        name={name}
-        url={url}
-      />)}
-    </SkillSection>
+    <SkillRowSection 
+      title="Languages de Programmation"
+      skills={programmingLanguagesSkills}
+    />
   );
 }
