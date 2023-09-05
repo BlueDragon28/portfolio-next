@@ -6,7 +6,7 @@ import IntroductionText from "@/components/introduction-text";
 export default function Home() {
   return (
     <Layout>
-      <Card className="my-4">
+      <Card className="sm:my-4">
         <ProfileInfo />
         <div className="mt-10">
           <hr 
