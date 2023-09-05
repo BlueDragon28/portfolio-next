@@ -11,9 +11,9 @@ export default function HeaderCard(
 ) {
   return (
     <Card className="p-0 overflow-hidden flex flex-col">
-      <div className="p-2 bg-blue-600 font-bold text-2xl">
+      <h2 className="p-2 bg-blue-600 font-bold text-2xl">
         {title}
-      </div>
+      </h2>
       <div className="flex-grow p-2">
         {children}
       </div>
