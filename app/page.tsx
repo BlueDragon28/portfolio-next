@@ -22,6 +22,8 @@ export default function Home() {
         <ProgrammingLanguagesSkillSection />
         <FrameworksSkillSection />
       </HeaderCard>
+      <div className="mb-0 sm:mb-2"></div>
     </Layout>
   );
 }
+
