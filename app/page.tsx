@@ -3,9 +3,8 @@ import Card from "@/components/card";
 import HeaderCard from "@/components/header-card";
 import ProfileInfo from "@/components/profile-info";
 import IntroductionText from "@/components/introduction-text";
-import SkillIcon from "@/components/skill-icon";
-import SkillSection from "@/components/skill-section";
 import ProgrammingLanguagesSkillSection from "@/components/programming-languages-skills";
+import FrameworksSkillSection from "@/components/framework-skills-list";
 
 export default function Home() {
   return (
@@ -21,6 +20,7 @@ export default function Home() {
       </Card>
       <HeaderCard title="Compétences">
         <ProgrammingLanguagesSkillSection />
+        <FrameworksSkillSection />
       </HeaderCard>
     </Layout>
   );

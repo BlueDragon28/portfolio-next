@@ -1,5 +1,3 @@
-import SkillSection from "./skill-section";
-import SkillIcon from "./skill-icon";
 import SkillRowSection, { SkillRowSectionInterface } from "./skills-row-section";
 
 const programmingLanguagesSkills: SkillRowSectionInterface[] = [
