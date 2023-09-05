@@ -1,5 +1,6 @@
 import Layout from "@/components/layout";
 import Card from "@/components/card";
+import HeaderCard from "@/components/header-card";
 import ProfileInfo from "@/components/profile-info";
 import IntroductionText from "@/components/introduction-text";
 
@@ -15,6 +16,9 @@ export default function Home() {
           <IntroductionText />
         </div>
       </Card>
+      <HeaderCard title="Compétences">
+        Hello World!
+      </HeaderCard>
     </Layout>
   );
 }
