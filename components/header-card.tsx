@@ -10,7 +10,7 @@ export default function HeaderCard(
   { children, title }: HeaderCardProps,
 ) {
   return (
-    <Card className="p-0 overflow-hidden flex flex-col">
+    <Card className="overflow-hidden flex flex-col !p-0">
       <h2 className="p-2 bg-blue-600 font-bold text-2xl">
         {title}
       </h2>
