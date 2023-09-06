@@ -37,6 +37,17 @@ export default function Home() {
           <p className="my-2">Link: <Anchor url="https://gamesorting.bluedragon28.com/">gamesorting.bluedragon28.com</Anchor></p>
           <p className="my-2">Source: <Anchor url="https://github.com/BlueDragon28/gamesorting_webapp">github.com</Anchor></p>
         </ProjectCardItem>
+        <ProjectCardItem
+          className="mt-2"
+          title="Simple Audio Player"
+          image={{
+            url: "/images/projects/simple-audio-player.jpg",
+            alt: "Simple Audio Player",
+          }}
+        >
+          <p className="my-2">Licence: MIT</p>
+          <p className="my-2">Source: <Anchor url="https://github.com/BlueDragon28/simple-audio-player">github.com</Anchor></p>
+        </ProjectCardItem>
       </HeaderCard>
       <div className="mb-0 sm:mb-2"></div>
     </Layout>

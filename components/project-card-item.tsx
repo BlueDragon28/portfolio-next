@@ -9,15 +9,16 @@ export interface ProjectCardItemProps {
   title: string,
   image: ProjectCardImageAttr,
   children: ReactNode,
+  className?: string,
 }
 
 export default function ProjectCardItem(
-  { title, image, children }: ProjectCardItemProps
+  { title, image, children, className }: ProjectCardItemProps
 ) {
   const { url, alt } = image;
 
   return (
-    <div className="flex flex-col sm:flex-row rounded-lg overflow-hidden bg-blue-800">
+    <div className={`flex flex-col sm:flex-row rounded-lg overflow-hidden bg-blue-800 ${className}`}>
       <img 
         className="block w-[100%] sm:w-[330px] sm:me-4"
         src={url}
