@@ -7,6 +7,7 @@ import ProgrammingLanguagesSkillSection from "@/components/programming-languages
 import FrameworksSkillSection from "@/components/framework-skills-list";
 import ProjectCardItem from "@/components/project-card-item";
 import Anchor from "@/components/anchor";
+import FooterCard from "@/components/footer-card";
 
 export default function Home() {
   return (
@@ -61,6 +62,7 @@ export default function Home() {
         </ProjectCardItem>
       </HeaderCard>
       <div className="mb-0 sm:mb-2"></div>
+      <FooterCard />
     </Layout>
   );
 }
