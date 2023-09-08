@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 import NavBar from "./navbar";
+import FooterCard from "./footer-card";
 
 export interface LayoutProps {
   currentPath?: string,
@@ -10,9 +11,10 @@ export default function Layout(
   { currentPath, children }: LayoutProps,
 ) {
   return (
-    <>
+    <div className="h-[100vh] flex flex-col">
       <NavBar currentPath={currentPath}/>
-      <main>{children}</main>
-    </>
+      <main className="flex-grow">{children}</main>
+      <FooterCard />
+    </div>
   );
 }

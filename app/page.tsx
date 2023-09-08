@@ -33,7 +33,6 @@ export default function Home() {
         <SimpleAudioLibrary />
       </HeaderCard>
       <div className="mb-0 sm:mb-2"></div>
-      <FooterCard />
     </Layout>
   );
 }
