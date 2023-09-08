@@ -1,10 +1,17 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import NavBar from "./navbar";
 
-export default function Layout({ children } : { children: React.ReactNode }) {
+export interface LayoutProps {
+  currentPath?: string,
+  children: ReactNode,
+}
+
+export default function Layout(
+  { currentPath, children }: LayoutProps,
+) {
   return (
     <>
-      <NavBar />
+      <NavBar currentPath={currentPath}/>
       <main>{children}</main>
     </>
   );

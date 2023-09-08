@@ -11,7 +11,7 @@ import FooterCard from "@/components/footer-card";
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout currentPath="/">
       <Card className="sm:my-4">
         <ProfileInfo />
         <div className="mt-10">
