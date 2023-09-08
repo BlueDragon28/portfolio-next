@@ -24,6 +24,12 @@ export default function NavBar(
         >
           Home
         </NavbarLink>
+        <NavbarLink
+          href="/projects"
+          active={currentPath === "/projects"}
+        >
+          Projects
+        </NavbarLink>
       </div>
     </nav>
   );
