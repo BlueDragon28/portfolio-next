@@ -15,7 +15,8 @@ export default function FooterCard() {
             url="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg">Wikipedia</Anchor> <Anchor
             url="https://www.python.org/community/logos/">Python</Anchor> <Anchor
             url="https://dart.dev/">Dart</Anchor> <Anchor
-            url="https://vercel.com/design/brands#next-js">Vercel</Anchor>
+            url="https://vercel.com/design/brands#next-js">Vercel</Anchor> <Anchor 
+            url="https://www.apache.org">Apache</Anchor>
         </p>
       </div>
     </footer>
