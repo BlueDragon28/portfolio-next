@@ -13,6 +13,10 @@ const serveursSkills: SkillRowSectionInterface[] = [
     name: "Docker",
     url: "/images/techs/docker.png",
   },
+  {
+    name: "SSH",
+    url: "/images/techs/ssh.jpg",
+  },
 ];
 
 export default function ServeurSkillsSection() {
