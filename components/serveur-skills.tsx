@@ -9,7 +9,11 @@ const serveursSkills: SkillRowSectionInterface[] = [
     name: "NGINX",
     url: "/images/techs/nginx.png",
   },
-]
+  {
+    name: "Docker",
+    url: "/images/techs/docker.png",
+  },
+];
 
 export default function ServeurSkillsSection() {
   return (
