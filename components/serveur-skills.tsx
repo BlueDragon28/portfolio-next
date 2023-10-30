@@ -17,6 +17,10 @@ const serveursSkills: SkillRowSectionInterface[] = [
     name: "SSH",
     url: "/images/techs/ssh.jpg",
   },
+  {
+    name: "AWS Lightsail",
+    url: "/images/techs/aws_lightsail.png",
+  },
 ];
 
 export default function ServeurSkillsSection() {
