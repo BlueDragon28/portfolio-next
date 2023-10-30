@@ -1,10 +1,13 @@
-import SkillRowSection from "./skills-row-section";
-import FrameworksSkillSection, { SkillRowSectionInterface } from "./skills-row-section";
+import SkillRowSection, { SkillRowSectionInterface } from "./skills-row-section";
 
 const serveursSkills: SkillRowSectionInterface[] = [
   {
     name: "Apache",
     url: "/images/techs/apache.png",
+  },
+  {
+    name: "NGINX",
+    url: "/images/techs/nginx.png",
   },
 ]
 
