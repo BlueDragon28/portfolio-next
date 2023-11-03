@@ -1,4 +1,3 @@
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import NavbarLink from "./navbar-link";
 
@@ -29,6 +28,12 @@ export default function NavBar(
           active={currentPath === "/projects"}
         >
           Projects
+        </NavbarLink>
+        <NavbarLink
+            href="/contact"
+            active={currentPath === "/contact"}
+        >
+          Contact
         </NavbarLink>
       </div>
     </nav>
