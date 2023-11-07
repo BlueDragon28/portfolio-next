@@ -17,6 +17,7 @@ export default function SkillRowSection(
   return (
     <SkillSection title={title}>
       {skills.map(({ name, url }) => <SkillIcon 
+        key={name+url}
         name={name}
         url={url}
       />)}
