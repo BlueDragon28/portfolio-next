@@ -6,7 +6,7 @@ export default function FooterCard() {
       <div className="sm:max-w-[800px] sm:mx-auto">
         <p>Site web réalisé avec Next.js et hébergé sur une instance VPS AWS.</p>
         <p>
-          Pour toutes informations, vous pouvez me contacter à l'adresse email <Anchor 
+          Pour toutes informations, vous pouvez me contacter à l&apos;adresse email <Anchor 
             url="mailto:erwansaclierdelabatie@yahoo.fr">erwansaclierdelabatie@yahoo.fr</Anchor>
         </p>
         <p>
