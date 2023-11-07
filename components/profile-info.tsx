@@ -14,7 +14,7 @@ export default function ProfileInfo() {
         <p className="my-1">Alternance Technicien Informatique</p>
         <div className="flex flex-row justify-around w-[300px] my-1">
           <OutlinedLink className="hover:text-gray-100" href="#">Obtenir CV</OutlinedLink> 
-          <OutlinedLink className="hover:text-gray-100" href="#">Contact</OutlinedLink>
+          <OutlinedLink className="hover:text-gray-100" href="/contact">Contact</OutlinedLink>
         </div>
       </div>
     </div>
