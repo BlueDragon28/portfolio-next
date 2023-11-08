@@ -10,6 +10,7 @@ import GameSortingWebApplication from "@/components/projects/gamesorting_webapp"
 import SimpleAudioPlayer from "@/components/projects/simple-audio-player";
 import SimpleAudioLibrary from "@/components/projects/simple-audio-library";
 import ServeurSkillsSection from "@/components/serveur-skills";
+import GpuPassthrough from "@/components/projects/gpu_passthrough";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       </HeaderCard>
       <div className="mb-0 sm:mb-4"></div>
       <HeaderCard title="Projets Réalisés">
+        <GpuPassthrough />
         <GameSortingWebApplication />
         <SimpleAudioPlayer />
         <SimpleAudioLibrary />

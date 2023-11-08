@@ -4,6 +4,7 @@ import Anchor from "../anchor";
 export default function GameSortingWebApplication() {
   return (
     <ProjectCardItem 
+      className="mt-2"
       title="GameSorting Web Application"
       image={{
         url: "/images/projects/gamesorting_webapp.jpg",
