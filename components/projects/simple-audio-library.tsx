@@ -13,6 +13,7 @@ export default function SimpleAudioLibrary() {
     >
       <p className="my-2">Licence: MIT</p>
       <p className="my-2">Source: <Anchor url="https://github.com/BlueDragon28/simple-audio-library">github.com</Anchor></p>
+      <p className="my-2">Permet de lire des fichiers audio. Cette bibliothèque est écrite en C++.</p>
     </ProjectCardItem>
   );
 }
