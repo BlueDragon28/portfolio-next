@@ -13,7 +13,7 @@ export default function SimpleAudioPlayer() {
     >
       <p className="my-2">Licence: MIT</p>
       <p className="my-2">Source: <Anchor url="https://github.com/BlueDragon28/simple-audio-player">github.com</Anchor></p>
-      <p className="my-2">Logiciel de musique qui a été développé en C++ en utilisant le framework Qt. Il utilise la bibliothèque simple-audio-library pour lire des morceaux musicaux et dispose aussi d'une intégration basique à l'API Spotify.</p>
+      <p className="my-2">Logiciel de musique qui a été développé en C++ en utilisant le framework Qt. Il utilise la bibliothèque simple-audio-library pour lire des morceaux musicaux et dispose aussi d&apos;une intégration basique à l&apos;API Spotify.</p>
     </ProjectCardItem>
   );
 }

@@ -11,7 +11,7 @@ export default function GpuPassthrough() {
         alt: "GPU Passthrough Icon"
       }}
     >
-      <p className="my-2">Configuration de Libvirt pour exécuter un script afin de déconnecter une carte graphique Radeon RX Vega 56 à chaud, dans le but de la lier au driver VFIO, ainsi que l'attribution des différents coeurs de la machine virtuelle aux coeurs physiques du processeur. Installations et configurations des drivers nécessaires au bon fonctionnement de Windows.</p>
+      <p className="my-2">Configuration de Libvirt pour exécuter un script afin de déconnecter une carte graphique Radeon RX Vega 56 à chaud, dans le but de la lier au driver VFIO, ainsi que l&apos;attribution des différents coeurs de la machine virtuelle aux coeurs physiques du processeur. Installations et configurations des drivers nécessaires au bon fonctionnement de Windows.</p>
     </ProjectCardItem>
   );
 }
